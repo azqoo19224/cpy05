@@ -12,10 +12,14 @@ echo "<hr>";
 
 $iSum = 0;
 $i = 0;
-while ($i < 10)
+while (9)
 {
 	$i++;
 	$iSum += $i;	
+	break;
 }
 echo $iSum
 ?>
+
+
+//while(判斷式)   判斷不為0, 執行

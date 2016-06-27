@@ -10,5 +10,6 @@ foreach ($a as $k => $x)
 {
 	echo "$k => $x <br>";
 }
-
+//foreach 印出
+//
 ?>

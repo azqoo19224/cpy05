@@ -35,3 +35,6 @@ function ShowStar_all($iCount, $sWhat = "*")
 // ShowStar(null, "$");
 ShowStar();
 ?>
+//iisset判斷的是 "變數"  是否存在
+
+//empty判斷的是 "值"  空值回傳 true

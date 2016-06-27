@@ -3,4 +3,6 @@
 	if ($a > 0) {
 		echo '$a is positive.';
 	}
+	
+	//if判斷
 ?>

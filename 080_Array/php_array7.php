@@ -7,7 +7,12 @@ $season = array(
     'autumn' => '秋', 
     'winter' => '冬'); 
     
-print_r($season);
+print_r($season);//印出$season
 echo "<hr>";
-var_dump($season);
+var_dump($season);//$season 相關資訊
+echo "<br>";
+foreach($season as $k => $value){
+    echo $k,$value;
+}
+
 ?>

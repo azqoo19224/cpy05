@@ -2,6 +2,7 @@
 if (isset ( $_POST ["btnOK"] )) {
 	processFile ( $_FILES ["file1"] );
 }
+
 function processFile($objFile) {
 	if ($objFile ["error"] != 0) {
 		echo "Upload Fail! ";
@@ -10,6 +11,7 @@ function processFile($objFile) {
 	}
 	
 	$test = move_uploaded_file ( $objFile ["tmp_name"], "./" . $objFile ["name"] );
+	//移動檔案
 	if (! $test) {
 		die ( "move_uploaded_file() faile" );
 	}

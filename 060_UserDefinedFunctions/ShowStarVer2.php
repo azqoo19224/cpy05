@@ -12,3 +12,5 @@ function ShowStar($iCount)
 $iHowMany = 3;
 ShowStar($iHowMany);
 ?>
+
+//利用for迴圈  echo *

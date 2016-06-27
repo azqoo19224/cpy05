@@ -11,6 +11,5 @@ function calcTotal () {
 	}
 	return $total;
 }
-
-
+//echo 直接呼叫函式
 ?>

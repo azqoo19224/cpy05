@@ -13,6 +13,9 @@
 	{
 		// setcookie("userid", $_POST["txt2"]);
 		setcookie("userid", $_POST["txt2"], time() + 60 * 60 * 24 * 7);
+		echo $_COOKIE["userid"];
+		//如果coolie要失效 時間設為昨天 預防地區時間不同
+	//	setcookie("變數名稱","變數值","存活時間","路徑","網域")
 	}
 	
 	if (isset($_POST["btnReadCookie"]))

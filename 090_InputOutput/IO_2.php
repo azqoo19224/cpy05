@@ -14,11 +14,14 @@ $fileResource = opendir ( $fileDir );
 
 	<p>File list:</p>
 	<ul>
-	<?php while ($item = readdir($fileResource)) : ?>
+	<?php while ($item = readdir($fileResource)) :
+	//讀值 ?>
+	
 		<li><?php echo $item; ?></li>
 	<?php endwhile; ?>
 	</ul>
 
 <?php closedir($fileResource); ?>
+
 </body>
 </html>

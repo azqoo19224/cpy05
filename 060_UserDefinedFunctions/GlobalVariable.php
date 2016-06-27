@@ -9,5 +9,9 @@ function myFunction($b) {
 	return $c = ($b + $a);
 }
 // 請預測答案是多少?
+//我猜是一百二
+
 echo myFunction(40) + $c;
+
+//好耶我猜對惹
 ?>

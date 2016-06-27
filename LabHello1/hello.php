@@ -5,6 +5,6 @@
 <title>Hello</title>
 </head>
 <body>
-Hello! <?php echo $_POST["txtUserName"] ?>
+<?php echo $_POST["txtUserName"] ?>
 </body>
 </html>

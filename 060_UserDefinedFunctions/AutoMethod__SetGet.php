@@ -7,6 +7,8 @@ echo "<hr>";
 echo $name;
 
 
+
+
 class CTest {
 
 	private $_dataBag = array();

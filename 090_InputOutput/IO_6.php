@@ -15,7 +15,8 @@ Web Services、
 PHP與jQuery、
 jQuery Mobile整合運用
 fileContent;
-
+//檔案內容寫入    
 $fileSize = file_put_contents("data2.txt", $content);
+
 echo "File size: $fileSize <br />-- Done --";
 ?>

@@ -2,12 +2,15 @@
 $sData = "";
 $f = fopen("pick3.txt", "r");
 while (!feof($f))
+//偵測檔案是否到了文件結束的位置
 {
 	$line = fgets($f);
 	$sData .= Trim($line);
+	// Trim  從目前的 String 物件中移除所有的開頭和結尾空白字元。
+
 }
 fclose($f);
-//echo $sData;
+echo $sData,"<br>";
 
 // GetHotCodeList
 $result = "01234567890";

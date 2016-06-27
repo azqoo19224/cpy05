@@ -35,4 +35,7 @@
 		default:
 			echo "unknown";
 	}  // end of switch
+		//switch    *記得加break; 
+	
+	
 ?>

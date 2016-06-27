@@ -22,4 +22,5 @@ function HotCodeList($sData)
 	}
 	return substr($result, 0, 5) . "-" . substr($result, 5, 5);
 }
+//直接宣告呼叫HotCodeList();
 ?>

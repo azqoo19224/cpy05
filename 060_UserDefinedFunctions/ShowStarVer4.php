@@ -24,3 +24,4 @@ function ShowStar($iCount, $sWhat = "*")
 $iHowMany = 21;
 ShowStar($iHowMany);
 ?>
+//兩個if判斷iCount的值   介於 0<iCount<20

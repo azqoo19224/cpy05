@@ -4,6 +4,7 @@ $x = "ABC";
 $y = "AB";
 if ($x >= $y)
 	echo "$x >= $y";
+	
 else
 	echo "$x < $y";
 
